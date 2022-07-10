@@ -7,7 +7,7 @@ server.all("/", (req, res) => {
 
 function keepAlive() {
   server.listen(3000, () => {
-    console.log("server.js running!")
+    console.log("server.js running")
   })
 }
 module.exports = keepAlive
